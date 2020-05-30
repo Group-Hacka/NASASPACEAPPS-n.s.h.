@@ -16,7 +16,7 @@ A N.A.H. (Nasa at home) é um site que oferecerá informações e curiosidades s
   - Exibir dados
 
 ### V2
-- Página do post
+- Modal do post
 - Desafio no post
 
 ### V3
