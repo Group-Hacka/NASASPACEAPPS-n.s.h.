@@ -1,39 +1,39 @@
 # [Nasa Space Apps - N.S.H](https://group-hacka.github.io/NASASPACEAPPS-n.s.h./src/).
 The Isolation Solution - Nasa Stay Home
 
-## Visão geral
+## Overview
 
-A N.S.H. (Nasa stay home) é um site que oferecerá informações e curiosidades sobre Marte, missões espaciais entre outros dados registrados pela NASA. Em cada post o usuário conseguirá curtir, comentar sua opinião sobre o assunto, formando assim um pequeno fórum em cada post. Ele encontrará também desafios para fazer com seus amigos nas redes sociais e assim incentivá-lo  a quebrar o isolamento social de forma segura e super engajadora, porque ele terá acesso as nossas hashtags e aos desafios que envolveriam músicas, jogos, e pesquisas sobre assuntos do nosso mundo e galáxia. As melhores soluções serão divulgadas no site da N.S.H. com o objetivo de motivar as pessoas a se conectarem, pesquisarem e descobrirem novos gostos e hobbies. Também contemplamos o contato para os astronautas e pesquisadores em situação de isolamento, que teriam se inscrito previamente em nossa plataforma e assim gerariam engajamento na comunidade, dando como recompensa dos challenges, uma call com esses profissionais.
+NASA Stay Home is a website that seeks to reduce the effects of social isolation through scientific communication. The goal is to build a gamified platform, with scoring and levels schemes, where the users will have challenges to play with his friends based on posts about NASA curiosities. In addition, we propose to bring science communicators, who are living on or off the Earth, on our platform to share their experiences and daily lives. Thus, people will be encouraged to don’t be isolated, but in a safer way.
 
 ## Roadmap
 
 ### V1
 - Layout:
-  - Filtros 
+  - Filters 
   - Search
   - Posts
-- Comunicação com API:
-  - Exibir dados
+- Comunication with API:
+  - Show data
 
 ### V2
-- Modal do post
-- Desafio no post
+- Post modal
+- Post challenges
 
 ### V3
-- Página de challenge
-  - Desafio
+- Challenges page:
+  - Challenges
   - Hashtags
-  - Prêmio call com um convidado (astronauta, pesquisador, divulgador científico)
+  - Schores and levels
 
 ### V4
-- Comentários:
+- Comments:
   - Likes
   - Deslikes
-  - Comentários nos posts
+  - Comments on posts
   
 ### V5
-- Registro dos astronautas, pesquisadores, divulgadores científicos
-- Espaço para interação dos astronautas, pesquisadores, divulgadores científicos com a comunidade (usuários de site)
+- Researchers registration 
+- Researchers interaction with the community
 
 ### V6 
 - Registro para participação das ligações de vídeos
