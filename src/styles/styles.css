@@ -1,9 +1,7 @@
 @media only screen and (max-width: 800px) {
-    html {
-        padding: 20px;
-    }
     main {
         font-family: Helvetica;
+        margin-top: 84px;
     }
     .header {
         display: flex;
@@ -58,31 +56,32 @@
     .footer {
         text-align: center;
     }
-
     .menu-hidden {
         display: none;
     }
-
     .menu-exhibit {
         display: flex;
+        margin-top: 69px;
     }
-
+    .menu-fixed {
+        position: fixed;
+        background-color: white;
+        z-index: 2;
+        width: 95%;
+        padding: 10px;
+    }
     .style-pages {
         flex-direction: column;
-        width: 100%;
         z-index: 2;
         background-color: white;
-        margin-top: 55px;
         align-self: center;
         position: fixed;
         width: 80%;
-        margin-top: 56px;
     }
-
     .margin-top-menu {
-        margin-top: 25px;
+        position: relative;
+        top: 77px;
     }
-
     .pages {
         height: 50px;
         font-family: Helvetica;
