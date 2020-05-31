@@ -12,6 +12,7 @@ NASA Stay Home is a website that seeks to reduce the effects of social isolation
   - Filters 
   - Search
   - Posts
+  - Mobile first
 - Comunication with API:
   - NASA data
   - NASA image and video library
