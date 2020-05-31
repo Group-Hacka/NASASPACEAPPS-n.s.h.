@@ -67,13 +67,20 @@
         display: flex;
     }
 
-    .style-menu {
+    .style-pages {
         flex-direction: column;
         width: 100%;
         z-index: 2;
         background-color: white;
         margin-top: 55px;
         align-self: center;
+        position: fixed;
+        width: 80%;
+        margin-top: 56px;
+    }
+
+    .margin-top-menu {
+        margin-top: 25px;
     }
 
     .pages {
