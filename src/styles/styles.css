@@ -81,6 +81,7 @@
     .margin-top-menu {
         position: relative;
         top: 77px;
+        margin: 0px 30px;
     }
     .pages {
         height: 50px;
@@ -91,5 +92,9 @@
         border: 1px solid darkblue;
         border-radius: 5px;
         text-align-last: center;
+    }
+
+    .margin-section {
+        margin: 0px 30px;
     }
 }
