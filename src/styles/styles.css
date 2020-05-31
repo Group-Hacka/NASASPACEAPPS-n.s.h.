@@ -111,7 +111,6 @@
 }
 
 .menu-fixed {
-  position: fixed;
   background-color: white;
   z-index: 2;
   width: 95%;
@@ -213,6 +212,64 @@
 
 .body-challenge {
   background-color: #1d2d46;
+}
+
+.sortImage, .share-friends {
+  font-weight: 900;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.sortImage {
+  padding-top: 100px;
+}
+
+.sortImage input {
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #262656;
+}
+
+.sortImage button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #262656;
+  color: #fff;
+  font-weight: 900;
+}
+
+.sortImage h2 {
+  margin-bottom: 20px;
+}
+
+.sortImage p small {
+  font-size: 15px;
+}
+
+.photo-birthday {
+  margin: 25px 0px;
+}
+
+.photo-birthday img {
+  width: 100%;
+}
+
+.share-friends {
+  display: none;
+}
+
+.share-friends h2 {
+  font-size: 17px;
+  margin: 20px;
+}
+
+.share-friends i {
+  font-size: 30px;
+  margin: 20px;
 }
 
 @media only screen and (min-width: 850px) {
@@ -385,5 +442,17 @@
   .title-challenge {
     top: 10%;
     left: 0;
+  }
+  
+  .photo-birthday img {
+    width: 30%;
+  }
+
+  .sortImage {
+    font-size: 25px;
+  }
+
+  .sortImage p {
+    margin-bottom: 30px;
   }
 }
