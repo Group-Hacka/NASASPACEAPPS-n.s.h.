@@ -31,19 +31,25 @@ getDataNasa().then(response => {
 dateBirthday.addEventListener('click', () => {
     const dateValue = document.querySelector('#date').value;
     getImageDate(dateValue).then(response => {
-        const img = `<img src="${response.hdurl}">`;
-        photoBirthday.innerHTML = img;
 
-        const facebook = document.querySelector('#facebook');
-        const twitter = document.querySelector('#twitter');
-        const whatsapp = document.querySelector('#whatsapp');
-        
-        const share = document.querySelector('#share-friends');
-        share.style.display = 'block';
-        
-        facebook.href = `http://www.facebook.com/sharer.php?u=${response.hdurl}`;
-        twitter.href = `https://twitter.com/intent/tweet?url=${response.hdurl}&text=Essa foi a imagem da Nasa no dia do meu aniversário: ${response.title}`;
-        whatsapp.href = `https://api.whatsapp.com/send?text=Essa foi a imagem da Nasa no dia do meu aniversário: ${response.hdurl}`;
+        if(response.code === 400) {
+            photoBirthday.innerHTML = "Oh, that's sad :D We don't have a picture for you in that year. What you think about trying with your last birthday?";
+        } else {
+            const img = `<img src="${response.hdurl}">`;
+            photoBirthday.innerHTML = img;
+            
+            const facebook = document.querySelector('#facebook');
+            const twitter = document.querySelector('#twitter');
+            const whatsapp = document.querySelector('#whatsapp');
+            
+            const share = document.querySelector('#share-friends');
+            share.style.display = 'block';
+            
+            facebook.href = `http://www.facebook.com/sharer.php?u=${response.hdurl}`;
+            twitter.href = `https://twitter.com/intent/tweet?url=${response.hdurl}&text=Essa foi a imagem da Nasa no dia do meu aniversário: ${response.title}`;
+            whatsapp.href = `https://api.whatsapp.com/send?text=Essa foi a imagem da Nasa no dia do meu aniversário: ${response.hdurl}`;
+        }
+
 
     });
 });
