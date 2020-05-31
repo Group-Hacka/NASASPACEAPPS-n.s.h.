@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>N.S.H</title>
-</head>
-<body>
-    <header class="header">
-        <div id="show-menu" class="menu-hidden style-pages">
-            <a href=""><div class="pages">Home</div></a>
-            <a href="about.html"><div class="pages">About</div></a>
-            <a href=""><div class="pages">Challenge</div></a>
-        </div>
-        <div class="menu-style menu-fixed menu-web">
-            <img class="logo" src="60e04b406b927e17d854f5271d05db48.png" alt="logo-nsh">
-            <div id="menu-bar" class="menu-bar" ><img src="bars-solid.svg" alt="menu"></div>
-        </div>
-        <div class="menu-style margin-top-menu">
-            <select class="select" name="" id=""></select> 
-            <input class="search" type="text" placeholder="search">
-        </div>
-    </header>
-    <main class="flex-column direction">
-        <section class="flex-column margin-section version-web">
-            <div class="flex-column border-post margin-post">
-                <img class="post-photo center" src="bars-solid.svg" alt="">
-                <p class="center margin-size">Title</p>
-            </div>
-            <div class="flex-column border-post margin-post">
-                <img class="post-photo center" src="bars-solid.svg" alt="">
-                <p class="center margin-size">Title</p>
-            </div>
-        </section>
-        <footer class="footer">Developed by N.S.H Team</footer>
-    </main>
-    
-    <script src="scripts/index.js" type="module"></script>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+        <title>N.S.H</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <nav id="show-menu" class="menu-hidden nav-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="challenge.html">Challenge</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="menu-style menu-fixed menu-web">
+                <a href="index.html">
+                    <img class="logo" src="img/nsh.png" alt="logo-nsh">
+                </a>
+                <p id="menu-bar" class="menu-bar"><i class="icon-menu"></i></p>
+            </section>
+            <section class="menu-style searchs">
+                <select id="sort-select" class="select">
+                    <option value="true">A-Z</option>
+                    <option value="false">Z-A</option>
+                </select>
+                <input id="search" class="search" type="text" placeholder="search">
+            </section>
+        </header>
+        <main class="flex-column direction mainly">
+            <ul id="list-posts" class="list-posts"></ul>
+            <footer class="footer">Developed by N.S.H Team</footer>
+        </main>
+
+        <script src="scripts/menu.js" type="module"></script>
+        <script src="scripts/main.js" type="module"></script>
+    </body>
+
 </html>
