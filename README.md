@@ -13,17 +13,18 @@ NASA Stay Home is a website that seeks to reduce the effects of social isolation
   - Search
   - Posts
 - Comunication with API:
-  - Show data
+  - NASA data
+  - NASA image and video library
 
 ### V2
-- Post modal
-- Post challenges
+- Modal
+- Challenges
 
 ### V3
 - Challenges page:
   - Challenges
   - Hashtags
-  - Schores and levels
+  - Scores and levels
 
 ### V4
 - Comments:
@@ -36,5 +37,5 @@ NASA Stay Home is a website that seeks to reduce the effects of social isolation
 - Researchers interaction with the community
 
 ### V6 
-- Registro para participação das ligações de vídeos
-- Ligações de vídeo para interação na comunidade formada
+- VR
+- Games
