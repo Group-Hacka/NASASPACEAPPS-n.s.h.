@@ -21,14 +21,12 @@
     .menu-bar {
         width: 10%;
     }
-
     .select {
         width: 40%;
         height: 32px;
         border-radius: 10px;
         border: 1px solid darkblue;
     }
-
     .search {
         width: 40%;
         height: 30px;
@@ -36,31 +34,56 @@
         border: 1px solid darkblue;
         padding: 0px 4px;
     }
-
     .flex-column {
         display: flex;
         flex-direction: column;
     }
-
     .post-photo {
         width: 75%;
     }
-
     .center {
         align-self: center;
     }
-
     .border-post {
         border: 1px solid darkblue;
         border-radius: 10px;
     }
-
     .margin-size {
         margin: 0px;
         font-size: 20px;
     }
-
     .margin-post {
         margin-bottom: 15px;
+    }
+    .footer {
+        text-align: center;
+    }
+
+    .menu-hidden {
+        display: none;
+    }
+
+    .menu-exhibit {
+        display: flex;
+    }
+
+    .style-menu {
+        flex-direction: column;
+        width: 100%;
+        z-index: 2;
+        background-color: white;
+        margin-top: 55px;
+        align-self: center;
+    }
+
+    .pages {
+        height: 50px;
+        font-family: Helvetica;
+        align-self: center;
+        font-size: 20px;
+        width: 95%;
+        border: 1px solid darkblue;
+        border-radius: 5px;
+        text-align-last: center;
     }
 }
