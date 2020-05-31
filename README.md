@@ -1,4 +1,4 @@
-# [Nasa Space Apps - N.S.H](https://group-hacka.github.io/NASASPACEAPPS-n.s.h./.).
+# [Nasa Space Apps - N.S.H](https://group-hacka.github.io/NASASPACEAPPS-n.s.h./src/).
 The Isolation Solution - Nasa Stay Home
 
 ## Visão geral
