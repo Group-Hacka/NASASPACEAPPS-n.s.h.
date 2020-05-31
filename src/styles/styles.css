@@ -1,4 +1,10 @@
 @media only screen and (max-width: 800px) {
+    html {
+        padding: 20px;
+    }
+    main {
+        font-family: Helvetica;
+    }
     .header {
         display: flex;
         flex-direction: column;
@@ -29,5 +35,32 @@
         border-radius: 10px;
         border: 1px solid darkblue;
         padding: 0px 4px;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-photo {
+        width: 75%;
+    }
+
+    .center {
+        align-self: center;
+    }
+
+    .border-post {
+        border: 1px solid darkblue;
+        border-radius: 10px;
+    }
+
+    .margin-size {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .margin-post {
+        margin-bottom: 15px;
     }
 }
