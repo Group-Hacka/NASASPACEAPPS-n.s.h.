@@ -8,5 +8,4 @@ const menuExhibit = () => {
 
 menuBar.addEventListener("click", () =>{
     menuExhibit();
-    console.log("ola")
 });

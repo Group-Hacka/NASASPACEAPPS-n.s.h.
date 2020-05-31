@@ -1,3 +1,120 @@
+main {
+    font-family: Helvetica;
+    margin-top: 84px;
+}
+
+.header {
+    display: flex;
+}
+
+.menu-style {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
+.menu-web {
+    order: -1;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.select {
+    width: 40%;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+}
+
+.search {
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 0px 4px;
+}
+
+.flex-column {
+    display: flex;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.post-photo {
+    width: 75%;
+}
+
+.center {
+    align-self: center;
+}
+
+.border-post {
+    border: 1px solid darkblue;
+    border-radius: 10px;
+}
+
+.margin-size {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.margin-post {
+    margin: 15px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.version-web {
+    align-self: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu-exhibit {
+    display: flex;
+    margin-top: 69px;
+}
+
+.menu-fixed {
+    background-color: white;
+    z-index: 2;
+    width: 95%;
+    padding: 10px;
+}
+
+.style-pages {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 40%;
+}
+
+.margin-top-menu {
+    position: relative;
+    top: 77px;
+    margin: 0px 30px;
+    width: 100%;
+}
+
+.pages {
+    margin: 5px;
+}
+
+.margin-section {
+    margin: 0px 30px;
+}
+
 @media only screen and (max-width: 800px) {
     main {
         font-family: Helvetica;
@@ -18,6 +135,7 @@
     }
     .menu-bar {
         width: 10%;
+        display: block;
     }
     .select {
         width: 40%;
@@ -93,7 +211,6 @@
         border-radius: 5px;
         text-align-last: center;
     }
-
     .margin-section {
         margin: 0px 30px;
     }
