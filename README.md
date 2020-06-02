@@ -38,5 +38,5 @@ NASA Stay Home is a website that seeks to reduce the effects of social isolation
 - Researchers interaction with the community
 
 ### V6 
-- VR
-- Games
+- Registration for participation in video call
+- Calls for interaction in community
