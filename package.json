@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Group-Hacka/NASASPACEAPPS-n.a.h.#readme",
   "dependencies": {
     "live-server": "^1.2.1",
-    "mocha": "^7.2.0"
+    "mocha": "^10.2.0"
   }
 }
